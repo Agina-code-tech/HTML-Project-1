@@ -1,6 +1,4 @@
-/* ================================
-   RESET
-================================ */
+/* RESET */
 * {
   margin: 0;
   padding: 0;
@@ -25,18 +23,14 @@ body {
   color: #333;
 }
 
-/* ================================
-   CONTAINER
-================================ */
+/* CONTAINER */
 .container {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* ================================
-   HEADER & NAVBAR
-================================ */
+/* HEADER & NAVBAR */
 .header {
   background-color: #035612;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -68,9 +62,7 @@ body {
   background: #00adb5;
 }
 
-/* ================================
-   MAIN CONTENT
-================================ */
+/* MAIN CONTENT */
 .main-content {
   max-width: 900px;
   margin: 0 auto;
@@ -80,9 +72,7 @@ body {
   gap: 20px;
 }
 
-/* ================================
-   SECTIONS - shared
-================================ */
+/* SECTIONS */
 section {
   background: white;
   border-radius: 12px;
@@ -105,9 +95,7 @@ h3 {
   text-align: center;
 }
 
-/* ================================
-   HERO
-================================ */
+/* HERO */
 .Hero {
   background: #f8f6ec;
   display: flex;
@@ -129,16 +117,15 @@ h3 {
   color: #555;
 }
 
-.video {
-  width: 100%;
-  max-width: 560px;
-  border-radius: 12px;
-  margin-top: 10px;
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px 0;
 }
 
-/* ================================
-   SKILLS LIST
-================================ */
+/* SKILLS LIST */
 .skills-list {
   list-style: none;
   display: flex;
@@ -158,9 +145,7 @@ h3 {
   font-weight: bold;
 }
 
-/* ================================
-   TABLE
-================================ */
+/* TABLE */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -184,9 +169,7 @@ tr:hover td {
   background: #f0faf0;
 }
 
-/* ================================
-   CONTACT
-================================ */
+/* CONTACT */
 .Contact {
   background-color: #f0faf0;
   border-radius: 20px;
@@ -253,9 +236,7 @@ input[type='submit']:hover {
   background: #024a0f;
 }
 
-/* ================================
-   FOOTER
-================================ */
+/* FOOTER */
 .footer {
   background-color: #035612;
   color: white;
