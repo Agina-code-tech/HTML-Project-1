@@ -1,0 +1,266 @@
+/* ================================
+   RESET
+================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
+  line-height: 1.6;
+  background-color: #f8f6ec;
+  color: #333;
+}
+
+/* ================================
+   CONTAINER
+================================ */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ================================
+   HEADER & NAVBAR
+================================ */
+.header {
+  background-color: #035612;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 14px 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  transition: background 0.2s;
+}
+
+.navbar a:hover {
+  background: #00adb5;
+}
+
+/* ================================
+   MAIN CONTENT
+================================ */
+.main-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ================================
+   SECTIONS - shared
+================================ */
+section {
+  background: white;
+  border-radius: 12px;
+  padding: 40px 32px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #035612;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+/* ================================
+   HERO
+================================ */
+.Hero {
+  background: #f8f6ec;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px;
+  gap: 16px;
+  box-shadow: none;
+}
+
+.Hero h1 {
+  font-size: 2.2rem;
+  color: #035612;
+}
+
+.Hero p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.video {
+  width: 100%;
+  max-width: 560px;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+/* ================================
+   SKILLS LIST
+================================ */
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.skills-list li {
+  background: #f0faf0;
+  color: #035612;
+  border: 1.5px solid #035612;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* ================================
+   TABLE
+================================ */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+th {
+  background: #035612;
+  color: white;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+tr:hover td {
+  background: #f0faf0;
+}
+
+/* ================================
+   CONTACT
+================================ */
+.Contact {
+  background-color: #f0faf0;
+  border-radius: 20px;
+  min-height: 250px;
+  min-width: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Contact h2 {
+  color: #035612;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  width: 80%;
+  margin: 0%;
+}
+
+label {
+  color: #035612;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+input,
+textarea {
+  width: 70%;
+  padding: 12px;
+  border-radius: 12px;
+  border: #024a0f;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid #035612;
+}
+
+input[type='submit'] {
+  background: #035612;
+  color: white;
+  cursor: pointer;
+  width: 70%;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background 0.2s;
+  border: none;
+}
+
+input[type='submit']:hover {
+  background: #024a0f;
+}
+
+/* ================================
+   FOOTER
+================================ */
+.footer {
+  background-color: #035612;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 14px;
+}
